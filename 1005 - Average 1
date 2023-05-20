@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+#include <string.h>
+using namespace std;
+
+int main() {
+    double grade_a, grade_b, weight_a, weight_b, average;
+    cin >> grade_a;
+    cin >> grade_b;
+    weight_a = 3.5;
+    weight_b = 7.5;
+    average = (grade_a * weight_a + grade_b * weight_b)/(weight_a + weight_b);
+    cout << "MEDIA = " << fixed << setprecision(5) << average << "\n";
+    return 0;
+}
