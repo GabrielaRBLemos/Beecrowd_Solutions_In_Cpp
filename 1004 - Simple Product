@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+#include <string.h>
+using namespace std;
+
+int main() {
+    int num_a, num_b, prod_a_b;
+    cin >> num_a;
+    cin >> num_b;
+    prod_a_b = num_a * num_b;
+    cout << "PROD = " << prod_a_b << "\n";
+    return 0;
+}
