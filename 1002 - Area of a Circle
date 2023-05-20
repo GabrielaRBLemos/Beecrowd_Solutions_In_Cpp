@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+#include <string.h>
+using namespace std;
+
+int main() {
+    double Radius,PI,Area;
+    cin >> Radius;
+    PI = 3.14159;
+    Area = Radius * Radius * PI;
+    cout << "A="<< fixed << setprecision(4) << Area << "\n";
+    return 0;
+}
