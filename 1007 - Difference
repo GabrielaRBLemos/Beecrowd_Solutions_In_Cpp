@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int int_a, int_b, int_c, int_d, dif;
+    cin >> int_a;
+    cin >> int_b;
+    cin >> int_c;
+    cin >> int_d;
+    dif = (int_a * int_b - int_c * int_d);
+    cout << "DIFERENCA = " << dif << "\n";
+    return 0;
+}
