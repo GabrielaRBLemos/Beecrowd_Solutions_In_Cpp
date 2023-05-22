@@ -1,0 +1,16 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+    int num, monthlyHours;
+    float hourlyPay, salary;
+    cin >> num;
+    cin >> monthlyHours;
+    cin >> hourlyPay;
+    salary = monthlyHours * hourlyPay;
+    cout << "NUMBER = " << num << "\n";
+    cout << "SALARY = U$ " << fixed << setprecision(2) << salary << "\n";
+    return 0;
+}
